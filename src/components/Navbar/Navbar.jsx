@@ -32,6 +32,12 @@ const Navbar = () => {
       </div>
 
       <div className='app__navbar-smallscreen'>
+      
+      {/*react-icons로 가져온 icons...
+        css적용하려면 여기에 코딩해야함 */}
+        
+      <GiHamburgerMenu color="#fff" fontSize={27} onClick={()=>{}} />
+
 
       
         {/*🦄 43:00 */}
