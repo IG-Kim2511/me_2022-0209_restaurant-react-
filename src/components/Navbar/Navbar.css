@@ -17,8 +17,7 @@
     width: 150px;
 }
 
-.app__navbar-links{
-    
+.app__navbar-links{    
     /*
      🦄 flex: 1 👉
     flex-grow : 1;        (여백을 각 div가 1씩 똑같이 나눠가짐)
@@ -43,3 +42,5 @@
 .app__navbar-links li:hover{
     color: var(--color-grey);
 } 
+
+

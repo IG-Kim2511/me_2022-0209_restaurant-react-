@@ -85,9 +85,6 @@ media query
 }
 
 
-
-
-
 .p__cormorant {
   font-family: var(--font-base);
   color: var(--color-white);
@@ -99,6 +96,7 @@ media query
   font-size: 23px;
 }
 
+/* css10. navbar */
 .p__opensans {
   font-family: var(--font-alt);
   color: var(--color-white);
