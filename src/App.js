@@ -11,28 +11,29 @@ import {Navbar} from './components'
 import './App.css';
 
 function App() {
-  return (
+  return (   
 
-    // /*.src/components */
     <div>
+      {/*🍀   */} 
 
-    <h1>test</h1>
+      
+      <Navbar/>
+      
+      <AboutUs/>
+      
+      {/* 
+        <Navbar />
+        <Header />
+        <SpecialMenu />
+        <Chef />
+        <Intro />
+        <Laurels />
+        <Gallery />
+        <FindUs />
+        <Footer />
+      */}
 
-    <Navbar/>
-    
-    <AboutUs/>
-    
-    {/* 
-      <Navbar />
-      <Header />
-      <SpecialMenu />
-      <Chef />
-      <Intro />
-      <Laurels />
-      <Gallery />
-      <FindUs />
-      <Footer />
-     */}
+      <h1>test</h1>
   </div>
 
 
