@@ -1,7 +1,7 @@
 
 import React from 'react';
 
-import {Header} from './container'
+import {AboutUs, Header} from './container'
 
 // 폴더내의 index.js를 통해서 export, import
 import {Navbar} from './components'
@@ -17,8 +17,10 @@ function App() {
       {/*🍀   */} 
 
       <Navbar/>
-      
+
       <Header />
+
+      <AboutUs/>
       
       {/* 
           <Navbar />
