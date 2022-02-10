@@ -72,7 +72,7 @@
     background: var(--color-grey);
 }
 
-/* 🍖js35. */
+/* 🍖js35-10. */
 .app__navbar-smallscreen {
     display: none;
 }
@@ -129,7 +129,7 @@
     }
 }
 
-/*🍖js35. 1150px일때 navlist 안보이고, burger menu 보임 */
+/*🍖js35-20 */
 @media screen and (max-width: 1150px) {
     .app__navbar-links {
         display: none;

@@ -14,6 +14,13 @@ const Navbar = () => {
    
   /*🦄 useState 
   React.useState(~); 쓰면 상단에 useState import안해도 됨  
+
+  🍀🍄js35. toggle menu bar
+    10. display :none
+    20. media query 1150px 이하 일때, navlist 숨김, toggle menu bar 보임 
+    30. useState, false
+    40  GiHamburgerMenu, onClick, click하면 true
+    50. if {toggleMenu} 가 true일때...rendering
   */
   const [toggleMenu, setToggleMenu] = React.useState(false);
   
@@ -41,23 +48,24 @@ const Navbar = () => {
 
 
 
-     {/* 🍀js35. burger menu bar
+     {/* 🍖js35-20. burger menu bar
           phone size화면일때 보임  */}
 
       <div className='app__navbar-smallscreen'>
       
-        {/*🍀react-icons로 가져온 icons...
+        {/*
+          🍀react-icons로 가져온 icons...
           css적용하려면 여기에 코딩해야함 
 
-          🍖js43:00 onClick    
+          🍀js43:00 onClick    
         */}
 
-        {/*🍖js43:00  click하면 true*/}
+        {/*🍖js35-40.*/}
         <GiHamburgerMenu color="#fff" fontSize={27} onClick={()=>{setToggleMenu(true)}} />
         
    
-        {/*🦄js43:00        
-        if {toggleMenu} 가 true일때...rendering <div>        
+        {/*🍖js35-50
+          🦄if {toggleMenu} 가 true일때...rendering <div>        
         */}
 
         { 
