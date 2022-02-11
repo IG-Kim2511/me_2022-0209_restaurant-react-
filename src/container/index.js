@@ -1,5 +1,6 @@
 import AboutUs from './AboutUs/AboutUs.jsx'
 import Header from './Header/Header.jsx'
+import SpecialMenu from './Menu/SpecialMenu.jsx'
 
 
 
@@ -7,4 +8,5 @@ import Header from './Header/Header.jsx'
 export{
     Header,
     AboutUs,
+    SpecialMenu,
 };
