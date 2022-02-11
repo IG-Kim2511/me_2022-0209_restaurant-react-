@@ -6,7 +6,7 @@ import {images} from '../../constants'
 const SubHeading = ({title}) => {
   return (
     <div style={{marginBottom:'1rem'}}>    
-      <p>{title}</p>
+      <h1 style={{background:'green'}}>{title}</h1>
       <img src={images.spoon} className='spoon__img'/>    
     </div>
   )

@@ -13,12 +13,12 @@ const SpecialMenu = () => {
     <div className="app__specialMenu-title">
     
             {/* 🍀SubHeading props */}
-            <SubHeading title="Menu that fits your palatte"/>
-            <h1 className="headtext__cormorant">Today's special</h1>
+            <SubHeading title="SubHeading props-Menu"/>
+            <h1 className="headtext__cormorant">Menu-SpecialMenu</h1>
 
             <div className="app__specialMenu-menu">
                 <div className="app__specialMenu-menu_wine  flex__center">
-                    <p className="app__specialMenu-menu_heading">Wine & Beer</p>
+                    <p className="app__specialMenu-menu_heading">Wine</p>
 
                     <div className="app__specialMenu_menu_items">
                     {/*🍀r121 map loop + data 
