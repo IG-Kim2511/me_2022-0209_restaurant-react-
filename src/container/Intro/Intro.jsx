@@ -7,15 +7,32 @@ import './Intro.css'
 
 const Intro = () => {
 
-    /* 🍀🍄
-        10. useRef
+    /* 🍀🍄 r155
+        10. useRef - video연결
         20. video : ref={vidRef}
 
-        왜인지 모르지만, app__video div에 css,position: relative 넣어야지 play버튼이 보임
+        30. 왜인지 모르지만, app__video div에 css,position: relative 넣어야지 play버튼이 보임
     
-    
+        40. onClick:
+            setPlayVideo(!playVideo);
+            playVideo의 반대로 set
+
+            playVideo가 true 일때 -> false
+            playVideo가 false 일때 -> true
+
+        50. onClick:
+             JS Video play() Method  : https://www.w3schools.com/jsref/met_video_play.asp    
+            playVideo가 true 일때 -> ~.pause()
+            playVideo가 false 일때 ->  ~.play() 
+
+        60. icon change
+            playVideo가 true 일때 -> pause icon
+            playVideo가 false 일때 -> play icon
     */
+
+    //🍉r155-10
     const vidRef = React.useRef();
+
     const [playVideo,setPlayVideo] = React.useState(false);
 
   return (
@@ -28,6 +45,7 @@ const Intro = () => {
          muted     
          autoPlay
         
+         /* 🍉r155-20 */
          ref={vidRef}
         src={meal}/>
 
@@ -35,23 +53,10 @@ const Intro = () => {
             <div 
                 onClick={()=>{
 
-                    /* 
-                        setPlayVideo(!playVideo);
-                        playVideo의 반대로 set
+                    /* 🍉r155-40 */
+                    setPlayVideo(!playVideo);                    
 
-                        playVideo가 true 일때 -> false
-                        playVideo가 false 일때 -> true
-                    
-                    */
-                    setPlayVideo(!playVideo);
-                    
-
-                    /* 
-                    🍀JS Video play() Method                    
-                        playVideo가 true 일때 -> ~.pause()
-                        playVideo가 false 일때 ->  ~.play()                    
-                    */
-
+                     /* 🍉r155-50 */
                     if (playVideo) {
                         vidRef.current.pause();                                        
                     } else {
@@ -63,10 +68,7 @@ const Intro = () => {
                 className="app__video-overlay_circle flex__center"
             >
 
-            {/*   playVideo가 true 일때 -> pause icon
-                        playVideo가 false 일때 -> play icon
-                    
-                    */}
+            {/* 🍉r155-60 */}
                 {
                     playVideo?
                     (<BsPauseFill color="#fff" fontSize={30}/> )
