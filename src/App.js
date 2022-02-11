@@ -1,7 +1,7 @@
 
 import React from 'react';
 
-import {AboutUs, Header, SpecialMenu} from './container'
+import {AboutUs, Chef, Header, SpecialMenu} from './container'
 
 // 폴더내의 index.js를 통해서 export, import
 import {Navbar} from './components'
@@ -20,6 +20,7 @@ function App() {
       <Header />
       <AboutUs/>
       <SpecialMenu/>
+      <Chef/>
       
       {/* 
           <Navbar />
@@ -34,7 +35,6 @@ function App() {
           <Footer />
       */}
 
-      <h1>test</h1>
   </div>
 
 
