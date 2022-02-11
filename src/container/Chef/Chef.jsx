@@ -17,7 +17,7 @@ const Chef = () => {
             {/* 🍀 SubHeading props */}
             <SubHeading title="SubHeading props-Chef"/>
 
-            <h1 className="headtext__cormorant">Chef</h1>
+            <h1 className="headtext__cormorant">container-chef</h1>
 
             <div>
                 <div>

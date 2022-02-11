@@ -14,7 +14,7 @@ const SpecialMenu = () => {
     
             {/* 🍀SubHeading props */}
             <SubHeading title="SubHeading props-Menu"/>
-            <h1 className="headtext__cormorant">Menu-SpecialMenu</h1>
+            <h1 className="headtext__cormorant">container-Menu-SpecialMenu</h1>
 
             <div className="app__specialMenu-menu">
                 <div className="app__specialMenu-menu_wine  flex__center">

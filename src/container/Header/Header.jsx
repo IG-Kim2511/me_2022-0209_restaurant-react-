@@ -14,7 +14,7 @@ const Header = () => {
       {/* 🍀55:00 props- text */}
       <SubHeading title="SubHeading props-Header"/>
 
-      <h1 className='app__header-h1'>Header</h1>
+      <h1 className='app__header-h1'>container - Header</h1>
 
       <p className='p__opensans' style={{margin:"2rem 0"}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis pharetra adipiscing ultrices vulputate posuere tristique. In sed odio nec aliquet eu proin</p>
 
