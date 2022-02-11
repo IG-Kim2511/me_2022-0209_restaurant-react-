@@ -2,7 +2,12 @@
     height: 30vh;
 
     /*🍉r155-30*/
-    position: relative;    
+    position: relative;        
+}
+
+.app__video h1,
+.app__video h3{
+    background-color: lightgreen; 
 }
 
 .app__video video {
@@ -16,6 +21,7 @@
     
     position: absolute;
     inset: 0;
+    top: 10rem;
     background: rgba(0,0,0,0.25);
 }
 
@@ -25,4 +31,9 @@
     border-radius: 50%;
     border: 1px solid green;
     cursor: pointer;
+
+    font-size: 1.5rem;
+    background-color: lightgreen;
+
+    
 }

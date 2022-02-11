@@ -37,6 +37,21 @@ const Intro = () => {
 
   return (
     <div className="app__video">
+        <h1>container- Intro</h1>
+        <h1>useRef, video, ref=vidRef</h1>
+        <h3>    onClick        
+        setPlayVideo(!playVideo);    
+        
+        if (playVideo)
+            vidRef.current.pause();                                        
+        else 
+                vidRef.current.play();
+        </h3>
+        <h3>    
+            playVideo?
+            ("Pause" )
+            :("Play")       
+        </h3>
         
         <video 
          loop
@@ -50,6 +65,7 @@ const Intro = () => {
         src={meal}/>
 
         <div className="app__video-overlay flex__center">
+           
             <div 
                 onClick={()=>{
 
@@ -71,9 +87,18 @@ const Intro = () => {
             {/* 🍉r155-60 */}
                 {
                     playVideo?
+                    ("Pause" )
+                    :("Play")
+                }       
+                
+                
+                {/* 
+                    playVideo?
                     (<BsPauseFill color="#fff" fontSize={30}/> )
-                    :(<BsFillPlayFill color="#fff" fontSize={30}/> )
-                }            
+                    :(<BsFillPlayFill color="#fff" fontSize={30}/> ) 
+                */}     
+                
+                
             </div>
         
         </div>
