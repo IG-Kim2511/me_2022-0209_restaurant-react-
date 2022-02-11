@@ -12,4 +12,4 @@ const SubHeading = ({title}) => {
   )
 }
 
-export default SubHeading
+export default SubHeading;
