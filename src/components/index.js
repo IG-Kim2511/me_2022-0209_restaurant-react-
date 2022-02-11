@@ -3,7 +3,7 @@
 
 import Navbar from './Navbar/Navbar.jsx'
 import SubHeading from './SubHeading/SubHeading.jsx'
-import MenuItem from './MenuItem/MenuItem.jsx'
+import MenuItem from './Menuitem/MenuItem.jsx'
 
 
 export {
