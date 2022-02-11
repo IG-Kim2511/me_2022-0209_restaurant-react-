@@ -25,7 +25,7 @@ const AboutUs = () => {
         </div>
       
         <div className="app__aboutus-content_history">
-          <h1 className="headtext__cormorant">About Us</h1>
+          <h1 className="headtext__cormorant">Container - About Us</h1>
 
           <img src={images.spoon} alt="about_spoon" className="spoon__img" />
 
