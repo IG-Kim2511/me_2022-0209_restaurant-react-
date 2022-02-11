@@ -16,9 +16,7 @@ function App() {
     <div>
       {/*🍀   */} 
 
-      <Navbar/>
-
-      
+      <Navbar/>      
       <Header />
       <AboutUs/>
       <SpecialMenu/>
