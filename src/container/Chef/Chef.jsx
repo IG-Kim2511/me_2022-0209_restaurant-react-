@@ -12,9 +12,13 @@ const Chef = () => {
             <img src={images.chef}/>
         </div>
 
-        <div>
+        <div className="app__wrapper_info">
+        
+            {/* 🍀 SubHeading props */}
             <SubHeading title="Chef's word"/>
+
             <h1 className="headtext__cormorant">What we believe in</h1>
+
             <div>
                 <div>
                     <img src={images.quote}/>
