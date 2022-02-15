@@ -19,7 +19,7 @@ media query
 
 
 .app__bg {
-  background: url('./assets/bg.png');
+  background: #212529;
   background-position: center;
   background-size: cover;
   background-repeat: repeat;
