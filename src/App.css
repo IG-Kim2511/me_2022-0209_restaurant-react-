@@ -84,6 +84,9 @@ media query
     cursor: pointer;
 }
 
+  .explain{
+    background-color: green;
+  }
 
 .p__cormorant {
   font-family: var(--font-base);

@@ -10,12 +10,17 @@ import './Awards.css'
 // const AwardCard = ({pp_award : {imgUrl, title, subtitle}})=>(
 const AwardCard = ({pp_award})=>(
     <div className="app__laurels_awards-card">
+        <div className='explain'>map loop + data , AwardCard</div>
         <img src={pp_award.imgUrl}/>
-        <div>
-            <p>{pp_award.title}</p>
+        <div className="app__laurels_awards-card_content">
+        <p className="p__cormorant" style={{ color: '#DCCA87' }}>
+         {pp_award.title}
+        </p>
+        <p className="p__opensans">
+          {pp_award.subtitle}
+        </p>
         </div>
     
-    hello
     </div>
 )
 
@@ -25,7 +30,7 @@ const Awards = () => {
 
         <div className="app__wrapper_info">
 
-            <SubHeading title="Awards & recognition" />
+            <SubHeading title="SubHeading props-Awards" />
 
             <h1 className="headtext__cormorant">
                 Our Awards

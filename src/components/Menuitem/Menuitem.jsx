@@ -8,7 +8,7 @@ const Menuitem = ({title,price,tags}) => {
      <div className="app__menuitem-head">
       <div className="app__menuitem-name">
       
-        <p className="p__cormorant" style={{ background: 'green' }}>map loop - component menuitem + data.js</p>
+        <p className="p__cormorant explain">map loop + data.js, component menuitem </p>
         <p className="p__cormorant" style={{ color: '#DCCA87' }}>
             {title}            
         </p>
