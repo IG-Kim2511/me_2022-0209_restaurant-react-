@@ -5,7 +5,7 @@
 .app__aboutus-overlay{
     position: absolute;
 
-    /* 🦄inset : margin같은거 전체 균일하게 줌....???? */
+    /* ??? 🦄inset : margin같은거 전체 균일하게 줌....???? */
     inset: 0;
 }
 

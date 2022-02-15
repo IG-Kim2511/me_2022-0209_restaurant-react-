@@ -42,11 +42,8 @@ const Navbar = () => {
       
         <a href='#login' className='p__opensans'>Log in / Registration</a>
         <a href='/' className='p__opensans'>Book Table</a>
+        <a href='/' className='p__opensans' style={{background:'green'}}>🦄flex: 1 (1:1:0)</a>
       </div>
-
-
-
-
 
      {/* 🍖js35-20. burger menu bar
           phone size화면일때 보임  */}
@@ -55,13 +52,13 @@ const Navbar = () => {
       
         {/*
           🍀react-icons로 가져온 icons...
-          css적용하려면 여기에 코딩해야함 
+          똑같이 className 넣고, css넣으면 됨
 
           🍀js43:00 onClick    
         */}
 
         {/*🍖js35-40.*/}
-        <GiHamburgerMenu color="#fff" fontSize={27} onClick={()=>{setToggleMenu(true)}} />
+        <GiHamburgerMenu  className='GiHamburgerMenu' onClick={()=>{setToggleMenu(true)}} />
         
    
         {/*🍖js35-50
@@ -73,7 +70,7 @@ const Navbar = () => {
         
           <div className='app__navbar-smallscreen_overlay flex__center slide-bottom'>          
             {/*🍀onClick*/} 
-            <MdOutlineRestaurantMenu fontSize={27} className='overlay__close' onClick={()=>{setToggleMenu(false)}}/>
+            <MdOutlineRestaurantMenu background="#fff" fontSize={27} className='MdOutlineRestaurantMenu' onClick={()=>{setToggleMenu(false)}}/>
     
             <ul className="app__navbar-smallscreen_links">
               <li><a href="#home" onClick={() => setToggleMenu(false)}>Home</a></li>
