@@ -4,6 +4,7 @@ import SpecialMenu from './Menu/SpecialMenu.jsx'
 import Chef from './Chef/Chef.jsx'
 import Intro from './Intro/Intro.jsx'
 import Awards from './Awards/Awards.jsx'
+import Gallery from './Gallery/Gallery.jsx'
 
 
 
@@ -11,8 +12,9 @@ import Awards from './Awards/Awards.jsx'
 export{
     Header,
     AboutUs,
-    SpecialMenu,
+    SpecialMenu,    
     Chef,
     Intro,
     Awards,
+    Gallery,
 };
