@@ -1,21 +1,19 @@
 import React from 'react'
 
 import { BsInstagram, BsArrowLeftShort, BsArrowRightShort } from 'react-icons/bs';
-
-
 import { SubHeading } from '../../components'
 
 // 20
 import { images } from '../../constants'
-
 import './Gallery.css'
 
+/* 🦄🍄js230
 
+10 ref
 
-/* 
-ref
+20 map
 
-map
+30 slide show - 왜인지는 모르는데 화면이 안보이는 버그 생겨서 , 일단 comment처리함
 
 */
 const Gallery = () => {
@@ -33,7 +31,7 @@ const Gallery = () => {
         if (p_direction ==='left') {
             current.scrollLeft -=300;
         } else {
-            current.scrollRight -=300;
+            current.scrollRight +=300;
         }
     }
 
@@ -58,7 +56,7 @@ const Gallery = () => {
               {/* 20 */}
               {
                   galleryImages.map((p_image,index)=>(
-                      <div className="app__gallery-images_card flex__center" >                       
+                      <div className="app__gallery-images_card flex__center"  key={index}>                       
 
                         <img src={p_image} alt="gallery_image" />
 
@@ -68,13 +66,13 @@ const Gallery = () => {
               }
             </div>
 
+            {/* 30
             <div className="app__gallery-images_arrows">
-
-                {/* 30 */}
               <BsArrowLeftShort className="gallery__arrow-icon" onClick={scroll('left')}/>
-              <BsArrowRightShort className="gallery__arrow-icon" onClick={scroll('right')}/>
-            
+              <BsArrowRightShort className="gallery__arrow-icon" onClick={scroll('right')}/>            
             </div>
+             */}
+            
         </div>  
     </div>
   )
