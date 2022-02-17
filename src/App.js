@@ -14,9 +14,7 @@ function App() {
   return (   
 
     <div>
-      {/*🍀  test */}      
-      <h1 className="" style={{ background: 'yellow'}}>test</h1>
-
+   
       {/* containers */}
       <Navbar/>      
       <Header />
@@ -28,20 +26,6 @@ function App() {
       <Gallery/>
       <FindUs/>
       <Footer/>
-
-
-      {/* 
-          <Navbar />
-          <Header />
-          <AboutUs />
-          <SpecialMenu />
-          <Chef />
-          <Intro />
-          <Laurels />
-          <Gallery />
-          <FindUs />
-          <Footer />
-      */}
 
   </div>
 
