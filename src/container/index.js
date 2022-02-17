@@ -6,6 +6,7 @@ import Intro from './Intro/Intro.jsx'
 import Awards from './Awards/Awards.jsx'
 import Gallery from './Gallery/Gallery.jsx'
 import FindUs from './FindUs/FindUs.jsx'
+import Footer from './Footer/Footer.jsx'
 
 
 
@@ -19,4 +20,5 @@ export{
     Awards,
     Gallery,
     FindUs,
+    Footer,
 };
